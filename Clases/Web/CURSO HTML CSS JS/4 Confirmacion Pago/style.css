@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(240, 234, 234);
+}
+
+header {
+    background-color: #7c89a0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 11px;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+.pagina{
+    color: white;
+}
+
+.iniciopagina a{
+    text-decoration: none;
+    color: white;
+}
+
+.iniciopagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #202020;
+    margin-bottom: 50px;
+}
+
+.container .sub-container .contenido .icon img{
+    width: 55px;
+}
+
+.container .sub-container .contenido .icon{
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.container .sub-container{
+    width: 600px;
+    border-radius: 10px;
+    background-color: #202020;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.container .sub-container .contenido{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    flex: auto;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+.container .sub-container .contenido .mensaje .title{
+    color: white;
+    font-weight: bolder;
+}
+
+.container .sub-container .actions{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.container .sub-container .actions button{
+    border: none;
+    padding: 15px;
+    min-width: 120px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #025be1;
+    color: white;
+}
+
+.container .sub-container .actions .btn-download:hover{
+    background-color: #1333c0;
+    border: solid 1px black;
+}
+
+.container .sub-container .actions .btn-back:hover{
+    background-color: #1333c0;
+    border: solid 1px black;
+}
+
+@media (max-width: 650px){
+    .container .sub-container{
+        width: 80%;
+        margin-bottom: 100px;
+    }
+
+    .container .sub-container .actions{
+        flex-direction: column;
+    }
+}
+
+.container .sub-container .contenido .mensaje{
+    display: flex;
+    align-items: center;
+}

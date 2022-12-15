@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: rgb(240, 234, 234);
+}
+
+.padre {
+    background: orangered;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.hijo {
+    background: black;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    background: #202020;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.uno {
+    background: #F13929;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.dos {
+    background: #7250FF;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.tres {
+    background: #01D0FB;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.fuera {
+    background: #202020;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adentro {
+    background: #7250FF;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.interno {
+    background: #F13929;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.fijo {
+    display: flex;
+    position: relative;
+    background: #4a20f0;
+    width: 150px;
+    height: 50px;
+    top: 50px;
+
+}
+
+header {
+    background-color: #7c89a0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 11px;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+.pagina{
+    color: white;
+}
+
+.iniciopagina a{
+    text-decoration: none;
+    color: white;
+}
+
+.iniciopagina{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #202020;
+    margin-bottom: 50px;
+}

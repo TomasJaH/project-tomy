@@ -4,12 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
     <title>Netflix</title>
 </head>
 <body>
-    
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">TomasMovies</h2>
+            <nav>
+                <a href="#" class="activo">Inicio</a>
+                <a href="#">Programas</a>
+                <a href="#">Peliculas</a>
+                <a href="#">Mas recientes</a>
+                <a href="http://tjportafolio.tk/" target="_blank">Portafolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="pelicula-principal">
+            <video id="video">
+                <source src="img/video.mp4" type="video/mp4" id="source">
+                </video>
+            <div class="contenedor">
+                <h3 class="titulo">The Brothers Gang</h3>
+                <p class="descripcion">
+                    Después de muchos años, su antiguo entrenador de futbol muere y ocho amigos deciden pasar un fin de semana, ahora con sus respectivas familias, en la casa de antaño donde siempre se juntaban.
+                </p>
+                <button role="button" class="boton" id="reproducir"><i class="fa-solid fa-play"></i>Ver Trailer</button>
+                <a href="http://tjportafolio.tk/" target="_blank"><button role="button" class="boton"><i class="fa-solid fa-circle-info"></i>Otros proyectos</button></a>
+            </div>
+        </div>
+
+        <div class="personajes contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Personajes</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+
+                <div class="contenedor-carousel">
+                    <div class="carousel">
+                        <div class="pelicula">
+                            <a href="https://wa.me/573052301956" target="_blank"><img src="img/yoX.jpg" alt="Brujo"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/juanlu_gutti/" target="_blank"><img src="img/guttiX.jpg" alt="Gutti"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/migue____11/" target="_blank"><img src="img/tastiX.jpg" alt="Tasti"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/nice_las___/" target="_blank"><img src="img/nicoX.jpg" alt="Nico"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/_sc__06/" target="_blank"><img src="img/cataX.jpg" alt="Cata"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/maison____06/" target="_blank"><img src="img/maisonX.jpg" alt="Maison"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/ruiz_srb/" target="_blank"><img src="img/ruizX.jpg" alt="Ruiz"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://www.instagram.com/07___.rj/" target="_blank"><img src="img/joseX.jpg" alt="Jose"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://goo.gl/maps/xXF61cvcFYz69KPk6" target="_blank"><img src="img/tierra.jpg" alt="Casas del valle"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://goo.gl/maps/SazWAnBwHQn9kyHw5" target="_blank"><img src="img/colegio.jpg" alt="Colegio Calasanz"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://goo.gl/maps/fFp8QPoWDD417Fhu8" target="_blank"><img src="img/quesudos.jpg" alt="Quesudos"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://goo.gl/maps/tKojsNYmsuxA7ALg9" target="_blank"><img src="img/tierraA.jpg" alt="Atardecer tierra firme"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#" target="_blank"><img src="img/piezaN.jpg" alt="Pieza Nico"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://goo.gl/maps/NB2iSAyqWsLbA4cYA" target="_blank"><img src="img/milos.jpg" alt="Milos del estadio"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#" target="_blank"><img src="img/casaT.jpg" alt="Casa Tasti"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="https://goo.gl/maps/wkvxPqUmk4qDyMeq6" target="_blank"><img src="img/unidad.jpg" alt="Laureles Campestre"></a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <video src =></video>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0793e71c26.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
